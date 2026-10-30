@@ -1,0 +1,74 @@
+[
+  {
+    "cell": "sram6t",
+    "charge_fC": 10,
+    "recovered": 4,
+    "total": 4
+  },
+  {
+    "cell": "sram6t",
+    "charge_fC": 20,
+    "recovered": 4,
+    "total": 4
+  },
+  {
+    "cell": "sram6t",
+    "charge_fC": 30,
+    "recovered": 2,
+    "total": 4
+  },
+  {
+    "cell": "sram6t",
+    "charge_fC": 45,
+    "recovered": 2,
+    "total": 4
+  },
+  {
+    "cell": "sram6t",
+    "charge_fC": 60,
+    "recovered": 2,
+    "total": 4
+  },
+  {
+    "cell": "sram6t",
+    "charge_fC": 90,
+    "recovered": 2,
+    "total": 4
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 10,
+    "recovered": 8,
+    "total": 8
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 20,
+    "recovered": 8,
+    "total": 8
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 30,
+    "recovered": 8,
+    "total": 8
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 45,
+    "recovered": 6,
+    "total": 8
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 60,
+    "recovered": 6,
+    "total": 8
+  },
+  {
+    "cell": "hphs12t",
+    "charge_fC": 90,
+    "recovered": 6,
+    "total": 8
+  }
+]

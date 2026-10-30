@@ -1,0 +1,798 @@
+[
+  {
+    "name": "sram6t_functional_tt",
+    "cell": "sram6t",
+    "kind": "functional",
+    "corner": "tt"
+  },
+  {
+    "name": "sram6t_functional_ff",
+    "cell": "sram6t",
+    "kind": "functional",
+    "corner": "ff"
+  },
+  {
+    "name": "sram6t_functional_ss",
+    "cell": "sram6t",
+    "kind": "functional",
+    "corner": "ss"
+  },
+  {
+    "name": "hphs12t_functional_tt",
+    "cell": "hphs12t",
+    "kind": "functional",
+    "corner": "tt"
+  },
+  {
+    "name": "hphs12t_functional_ff",
+    "cell": "hphs12t",
+    "kind": "functional",
+    "corner": "ff"
+  },
+  {
+    "name": "hphs12t_functional_ss",
+    "cell": "hphs12t",
+    "kind": "functional",
+    "corner": "ss"
+  },
+  {
+    "name": "sram6t_seu_s0_Q_0fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 0,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_10fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_10fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_20fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_20fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_30fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_30fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_45fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_45fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_60fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_60fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_Q_90fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s0_QN_90fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_0fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 0,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_10fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_10fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_20fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_20fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_30fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_30fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_45fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_45fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_60fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_60fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_Q_90fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "sram6t_seu_s1_QN_90fC",
+    "cell": "sram6t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_0fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 0,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_Q_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "Q",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_QN_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "QN",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S0_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S0",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s0_S1_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 0,
+    "node": "S1",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_0fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 0,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_10fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 10,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_20fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 20,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_30fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 30,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_45fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 45,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_60fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 60,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_Q_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "Q",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_QN_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "QN",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S0_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S0",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  },
+  {
+    "name": "hphs12t_seu_s1_S1_90fC",
+    "cell": "hphs12t",
+    "kind": "seu",
+    "state": 1,
+    "node": "S1",
+    "charge_fc": 90,
+    "tf_ps": 164,
+    "tr_ps": 50
+  }
+]

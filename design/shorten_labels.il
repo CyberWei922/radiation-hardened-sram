@@ -1,0 +1,12 @@
+foreach(cell list("sram6t" "hphs12t" "tb_sram6t_functional" "tb_sram6t_seu" "tb_hphs12t_functional" "tb_hphs12t_seu")
+  cv=dbOpenCellViewByType("rh_sram_lib" cell "schematic" "schematic" "a")
+  foreach(shape cv~>shapes
+    when(equal(shape~>objType "label") && rexMatchp(" L=" shape~>theLabel)
+      parts=parseString(shape~>theLabel)
+      shape~>theLabel=strcat(car(parts) " " cadr(parts))
+    )
+  )
+  dbSave(cv)
+  dbClose(cv)
+)
+exit()

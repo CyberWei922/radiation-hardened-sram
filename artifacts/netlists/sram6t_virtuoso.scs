@@ -1,0 +1,16 @@
+
+// Library name: rh_sram_lib
+// Cell name: sram6t
+// View name: schematic
+P2 (QN Q VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u \
+        nrd=0.135 nrs=0.135
+P1 (Q QN VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u \
+        nrd=0.135 nrs=0.135
+N4 (QN WL BLB VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u \
+        ps=1.2u nrd=0.135 nrs=0.135
+N3 (Q WL BL VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u ps=1.2u \
+        nrd=0.135 nrs=0.135
+N2 (QN Q VSS VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u \
+        nrd=0.135 nrs=0.135
+N1 (Q QN VSS VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u \
+        nrd=0.135 nrs=0.135

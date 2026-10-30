@@ -1,0 +1,66 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Local installers, private working files, and redundant packages
+/downloads/
+/tmp/
+/artifacts/backups/
+*.zip
+*.rar
+*.7z
+*.tgz
+*.tar.gz
+
+# Course materials are represented by reference indexes
+/references/*
+!/references/README.md
+/materials/*
+!/materials/README.md
+
+# VMware images and runtime files
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.vmx
+*.nvram
+*.lck/
+
+# Credentials, license files, and local tool settings
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+*_ed25519*
+.ssh/
+license.dat
+*.lic
+*.cdslck*
+*.cdslck*/
+/pdk/
+/PDK/
+/models/
+/tsmc18rf/
+
+# Runtime logs; numerical PSF traces and result summaries are retained
+/artifacts/logs/
+*.log
+**/psf/logFile
+
+# One-off environment inspection helpers
+/scripts/inspect_display.sh
+/scripts/inspect_models.sh
+/scripts/probe_analog.il
+/scripts/probe_pdk.il
+/scripts/read_viva_api.sh
+/scripts/run_analog_probe.sh
+/scripts/run_probe.sh
+/scripts/wake_display.sh
+/scripts/run_stage1.sh

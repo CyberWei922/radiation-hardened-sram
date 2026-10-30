@@ -1,0 +1,214 @@
+{
+  "sram6t": {
+    "ports": [
+      "BL",
+      "BLB",
+      "WL",
+      "VDD",
+      "VSS"
+    ],
+    "nodes": [
+      "Q",
+      "QN"
+    ],
+    "transistors": [
+      {
+        "name": "P1",
+        "kind": "p",
+        "d": "Q",
+        "g": "QN",
+        "s": "VDD",
+        "b": "VDD",
+        "w_um": 0.3,
+        "l_um": 0.18
+      },
+      {
+        "name": "P2",
+        "kind": "p",
+        "d": "QN",
+        "g": "Q",
+        "s": "VDD",
+        "b": "VDD",
+        "w_um": 0.3,
+        "l_um": 0.18
+      },
+      {
+        "name": "N1",
+        "kind": "n",
+        "d": "Q",
+        "g": "QN",
+        "s": "VSS",
+        "b": "VSS",
+        "w_um": 0.8,
+        "l_um": 0.18
+      },
+      {
+        "name": "N2",
+        "kind": "n",
+        "d": "QN",
+        "g": "Q",
+        "s": "VSS",
+        "b": "VSS",
+        "w_um": 0.8,
+        "l_um": 0.18
+      },
+      {
+        "name": "N3",
+        "kind": "n",
+        "d": "Q",
+        "g": "WL",
+        "s": "BL",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N4",
+        "kind": "n",
+        "d": "QN",
+        "g": "WL",
+        "s": "BLB",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      }
+    ]
+  },
+  "hphs12t": {
+    "ports": [
+      "BL",
+      "BLB",
+      "WL",
+      "VDD",
+      "VSS"
+    ],
+    "nodes": [
+      "Q",
+      "QN",
+      "S0",
+      "S1"
+    ],
+    "transistors": [
+      {
+        "name": "P1",
+        "kind": "p",
+        "d": "Q",
+        "g": "QN",
+        "s": "VDD",
+        "b": "VDD",
+        "w_um": 0.3,
+        "l_um": 0.18
+      },
+      {
+        "name": "P2",
+        "kind": "p",
+        "d": "QN",
+        "g": "Q",
+        "s": "VDD",
+        "b": "VDD",
+        "w_um": 0.3,
+        "l_um": 0.18
+      },
+      {
+        "name": "N1",
+        "kind": "n",
+        "d": "S0",
+        "g": "S1",
+        "s": "VSS",
+        "b": "VSS",
+        "w_um": 2.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N2",
+        "kind": "n",
+        "d": "S1",
+        "g": "S0",
+        "s": "VSS",
+        "b": "VSS",
+        "w_um": 2.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N3",
+        "kind": "n",
+        "d": "Q",
+        "g": "S1",
+        "s": "S0",
+        "b": "VSS",
+        "w_um": 0.8,
+        "l_um": 0.18
+      },
+      {
+        "name": "N4",
+        "kind": "n",
+        "d": "QN",
+        "g": "S0",
+        "s": "S1",
+        "b": "VSS",
+        "w_um": 0.8,
+        "l_um": 0.18
+      },
+      {
+        "name": "N5",
+        "kind": "n",
+        "d": "VDD",
+        "g": "Q",
+        "s": "S0",
+        "b": "VSS",
+        "w_um": 0.22,
+        "l_um": 0.18
+      },
+      {
+        "name": "N6",
+        "kind": "n",
+        "d": "VDD",
+        "g": "QN",
+        "s": "S1",
+        "b": "VSS",
+        "w_um": 0.22,
+        "l_um": 0.18
+      },
+      {
+        "name": "N7",
+        "kind": "n",
+        "d": "S0",
+        "g": "WL",
+        "s": "BL",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N8",
+        "kind": "n",
+        "d": "S1",
+        "g": "WL",
+        "s": "BLB",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N9",
+        "kind": "n",
+        "d": "Q",
+        "g": "WL",
+        "s": "BL",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      },
+      {
+        "name": "N10",
+        "kind": "n",
+        "d": "QN",
+        "g": "WL",
+        "s": "BLB",
+        "b": "VSS",
+        "w_um": 0.4,
+        "l_um": 0.18
+      }
+    ]
+  }
+}

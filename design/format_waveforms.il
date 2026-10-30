@@ -1,0 +1,8 @@
+awvClearPlotWindow(rhWaveWindow)
+awvPlotWaveform(rhWaveWindow list(rh6Q rh6QN) ?subwindow 1 ?expr list("6T Q - flips" "6T QN - flips") ?color list("y1" "y4") ?lineThickness list("Bold" "Bold"))
+awvSetXLimit(rhWaveWindow list(9.7e-9 12.5e-9) ?subwindow 1)
+awvAddSubwindow(rhWaveWindow)
+awvPlotWaveform(rhWaveWindow list(rh12Q rh12QN) ?subwindow 2 ?expr list("HPHS12T Q - recovers" "HPHS12T QN - recovers") ?color list("y1" "y4") ?lineThickness list("Bold" "Bold"))
+awvSetXLimit(rhWaveWindow list(9.7e-9 12.5e-9) ?subwindow 2)
+hiResizeWindow(awvGetHiWindow(rhWaveWindow) list(0:30 1610:1090))
+awvSaveWindow(rhWaveWindow "/home/rocky/work/rh_sram/docs/seu_comparison.grf")

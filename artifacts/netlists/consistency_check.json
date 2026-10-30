@@ -1,0 +1,12 @@
+[
+  {
+    "cell": "sram6t",
+    "transistors": 6,
+    "all_DGSB_and_geometry_matched": true
+  },
+  {
+    "cell": "hphs12t",
+    "transistors": 12,
+    "all_DGSB_and_geometry_matched": true
+  }
+]

@@ -1,0 +1,23 @@
+// Write 1, hold, read 1, write 0, hold, read 0
+simulator lang=spectre
+global 0
+parameters vdd=1.8
+include "/home/rocky/work/iclab018um/models/spectre/rf018.scs" section=tt
+include "bitcells.scs"
+VDD (VDD 0) vsource dc=vdd
+VWL (WL 0) vsource type=pwl wave=[ 0 0 5.2e-09 0 5.25e-09 1.8 7.2e-09 1.8 7.25e-09 0 1.2e-08 0 1.205e-08 1.8 1.3e-08 1.8 1.305e-08 0 2.02e-08 0 2.025e-08 1.8 2.22e-08 1.8 2.225e-08 0 2.7e-08 0 2.705e-08 1.8 2.8e-08 1.8 2.805e-08 0 ]
+VWE (WE 0) vsource type=pwl wave=[ 0 0 5e-09 0 5.05e-09 1.8 7.4e-09 1.8 7.45e-09 0 2e-08 0 2.005e-08 1.8 2.24e-08 1.8 2.245e-08 0 ]
+VPC (PC 0) vsource type=pwl wave=[ 0 0 4.8e-09 0 4.85e-09 1.8 7.6e-09 1.8 7.65e-09 0 1.18e-08 0 1.185e-08 1.8 1.32e-08 1.8 1.325e-08 0 1.98e-08 0 1.985e-08 1.8 2.26e-08 1.8 2.265e-08 0 2.68e-08 0 2.685e-08 1.8 2.82e-08 1.8 2.825e-08 0 ]
+VD (DATA 0) vsource type=pwl wave=[ 0 1.8 1.9e-08 1.8 1.905e-08 0 ]
+VDB (DATAB 0) vsource type=pwl wave=[ 0 0 1.9e-08 0 1.905e-08 1.8 ]
+WBL (BL DATA WE 0) relay ropen=1e12 rclosed=1 vt1=0.8 vt2=1.0
+WBLB (BLB DATAB WE 0) relay ropen=1e12 rclosed=1 vt1=0.8 vt2=1.0
+PRE1 (BL PC VDD VDD) pch w=2u l=180n
+PRE2 (BLB PC VDD VDD) pch w=2u l=180n
+CBL (BL 0) capacitor c=100f
+CBLB (BLB 0) capacitor c=100f
+Xcell (BL BLB WL VDD 0) sram6t
+ic Xcell.Q=0 Xcell.QN=1.8
+simOptions options temp=27 tnom=25 reltol=1e-5 vabstol=1e-6 iabstol=1e-12
+tran tran stop=32n maxstep=10p errpreset=conservative
+save WL WE PC BL BLB VDD:p Xcell.Q Xcell.QN

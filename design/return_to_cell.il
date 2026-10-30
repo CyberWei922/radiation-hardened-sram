@@ -1,0 +1,2 @@
+hiCloseWindow(rhTBWindow)
+hiRaiseWindow(rhCellWindow)

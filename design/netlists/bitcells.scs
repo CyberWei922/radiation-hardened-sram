@@ -1,0 +1,36 @@
+// Device lines exported by Virtuoso from rh_sram_lib schematics.
+simulator lang=spectre
+subckt sram6t (BL BLB WL VDD VSS)
+
+// Library name: rh_sram_lib
+// Cell name: sram6t
+// View name: schematic
+P2 (QN Q VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u          nrd=0.135 nrs=0.135
+P1 (Q QN VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u          nrd=0.135 nrs=0.135
+N4 (QN WL BLB VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u          ps=1.2u nrd=0.135 nrs=0.135
+N3 (Q WL BL VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u ps=1.2u          nrd=0.135 nrs=0.135
+N2 (QN Q VSS VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u          nrd=0.135 nrs=0.135
+N1 (Q QN VSS VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u          nrd=0.135 nrs=0.135
+
+ends sram6t
+
+subckt hphs12t (BL BLB WL VDD VSS)
+
+// Library name: rh_sram_lib
+// Cell name: hphs12t
+// View name: schematic
+P2 (QN Q VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u          nrd=0.135 nrs=0.135
+P1 (Q QN VDD VDD) pch l=0.18u w=0.3u m=1 ad=6e-14 as=6e-14 pd=1u ps=1u          nrd=0.135 nrs=0.135
+N10 (QN WL BLB VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u          ps=1.2u nrd=0.135 nrs=0.135
+N9 (Q WL BL VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u ps=1.2u          nrd=0.135 nrs=0.135
+N8 (S1 WL BLB VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u          ps=1.2u nrd=0.135 nrs=0.135
+N7 (S0 WL BL VSS) nch l=0.18u w=0.4u m=1 ad=8e-14 as=8e-14 pd=1.2u ps=1.2u          nrd=0.135 nrs=0.135
+N6 (VDD QN S1 VSS) nch l=0.18u w=0.22u m=1 ad=4.4e-14 as=4.4e-14 pd=0.84u          ps=0.84u nrd=0.135 nrs=0.135
+N5 (VDD Q S0 VSS) nch l=0.18u w=0.22u m=1 ad=4.4e-14 as=4.4e-14 pd=0.84u          ps=0.84u nrd=0.135 nrs=0.135
+N4 (QN S0 S1 VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u          nrd=0.135 nrs=0.135
+N3 (Q S1 S0 VSS) nch l=0.18u w=0.8u m=1 ad=1.6e-13 as=1.6e-13 pd=2u ps=2u          nrd=0.135 nrs=0.135
+N2 (S1 S0 VSS VSS) nch l=0.18u w=2.4u m=1 ad=4.8e-13 as=4.8e-13 pd=5.2u          ps=5.2u nrd=0.135 nrs=0.135
+N1 (S0 S1 VSS VSS) nch l=0.18u w=2.4u m=1 ad=4.8e-13 as=4.8e-13 pd=5.2u          ps=5.2u nrd=0.135 nrs=0.135
+
+ends hphs12t
+
